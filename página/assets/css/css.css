@@ -1,0 +1,30 @@
+.logo{
+    width: 120px;
+    height: 100px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:visited:hover {
+    color: gray;
+}
+
+.banner {
+    background-image: url("../imgs/banner.jpg");
+    height: 600px;
+}
+.banner_texto {
+    color: white;
+    padding-top: 150px;
+    font-size: 70px;
+    padding: 0;
+    padding-left: 40px;
+}
+.banner_subtexto {
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+}
