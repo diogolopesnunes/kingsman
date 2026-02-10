@@ -16,79 +16,105 @@
             </a>
             <!-- <div class="text-center col-6 justify-content-between align-items-center">Kingsman</div> -->
         </div>
-        <nav class="nav">
+        <nav class="navbar-nav flex-row">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link p-0 m-md-4 m-3" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sobre</a>
+                <a class="nav-link p-0 m-md-4 m-3" href="#produtos">Produtos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Serviços</a>
+                <a class="nav-link p-0 m-md-4 m-3" href="#servicos">Serviços</a>
             </li>
         </nav>
     </header>
     <main class="container-fluid text-center">
-        <section class="row">
-            <div class="banner d-flex flex-column justify-content-center align-items-start">
-                <h1 class="banner_texto">Bem-vindo à Kingsman Alfaiataria!</h1>
-                <p class="banner_subtexto">Homens modernos, moda clássica</p>
+        <section class="row banner_section">
+            <div class="banner mb-2 d-flex flex-column justify-content-end align-items-start">
+                <h1 class="banner_texto overflow-wrap text-white display-2 fw-bold">Kingsman Alfaiataria</h1>
+                <p class="banner_subtexto text-white fs-3">Homens modernos, moda clássica</p>
             </div>
         </section>
-        <section class="row">
-            <div class="col-12">
-                <h2>Sobre Nós</h2>
-                <p>Oferecemos uma variedade de serviços para atender às suas necessidades.</p>
+        <section id="sobre" class="row section-sobre bg-dark-subtle">
+            <h2 class="fw-bold fs-1">Sobre Nós</h2>
+            <div class="col-12 justify-content-around align-items-center d-flex">
+                <p class="section-texto text-center">Fundada sobre valores como discrição, excelência e lealdade, nossa casa representa um legado onde estilo é atitude. Na Kingsman, cada detalhe, do atendimento ao acabamento final, é pensado para homens que acreditam que elegância é um legado construído no tempo.</p>
+                <div class="div-sobre-img">
+                    <img src="assets/imgs/sobre1.webp" alt="Sobre nós" class="sobre-img rounded">
+                </div>
             </div>
 
         </section>
-        <section class="row">
+        <section class="row" id="produtos">
             <div class="col-12">
-                <h2>Produtos</h2>
+                <h2 class="fw-bold fs-1">Alfaiatarias prontas para uso</h2>
             </div>
-            <div class="col"></div>
-                <div class="row d-flex justify-content-evenly">
+            <div class="col">
+                <div class="row d-flex justify-content-evenly align-items-center card-grupo">
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="assets/imgs/tailoring1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Terno Azul Risca de Giz</h5>
+                            <p class="card-text">R$5000,00</p>
+                            <a href="#" class="btn btn-secondary bg-light">Compre Agora</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                    <img src="assets/imgs/tailoring2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Terno Azul</h5>
+                        <p class="card-text">R$6000,00</p>
+                        <a href="#" class="btn btn-secondary bg-light">Compre Agora</a>
                     </div>
                 </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/tailoring3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Terno Marrom</h5>
+                        <p class="card-text">R$8000,00</p>
+                        <a href="#" class="btn btn-secondary bg-light">Compre Agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/tailoring4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Terno de Tweed Xadrez</h5>
+                        <p class="card-text">R$6700,00</p>
+                        <a href="#" class="btn btn-secondary bg-light">Compre Agora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="row d-flex justify-content-center align-items-center section-servicos">
+            <h2 class="fw-bold fs-1">Serviços</h2>
+            <p class="servicos-texto">Oferecemos uma gama completa de serviços de alfaiataria, desde ajustes personalizados até a criação de peças sob medida.</p>
+            <a href="" class="btn btn-secondary bg-light col-6 servicos-botao">
+                Agende uma consulta
+            </a>
+            <img src="assets/imgs/alfaiataria_medida.jpg" alt="Peça sob medida" class="rounded servicos-img">
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container-fluid footer-content">
+            <div class="footer-section">
+                <h3>Kingsman Alfaiataria</h3>
+                <p>Homens modernos, moda clássica</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navegação</h4>
+                <a href="#sobre">Sobre</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#servicos">Serviços</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>Tel: (11) 1234-5678</p>
+                <p>Email: contato@kingsman.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kingsman Alfaiataria. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
